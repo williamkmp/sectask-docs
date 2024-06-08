@@ -13,6 +13,7 @@
         participant ProjectController
         participant ProjectService
         participant OutputService
+        participant EventGateway
         end
 
         participant Database
@@ -28,18 +29,21 @@
         activate ProjectService
         ProjectService->>Database: save new project
         activate Database
+        ProjectService->>Database: save craeted project log
         Database-->>ProjectService: created project data
         deactivate Database
         ProjectService->>OutputService: projectSidebar() 
         activate OutputService
-        OutputService-->>UI: broadcast project.log
+        OutputService-->>EventGateway: broadcast project.log
+        activate EventGateway
+        EventGateway-->>UI: emit project
+        deactivate EventGateway
         UI-->>User: Add Project to Sidebar display
         UI-->>Member: Add Project to Sidebar display
         ProjectService-->>ProjectController: saved project
         ProjectController-->>UI: response created
         UI-->User: closes project modal
         UI-->>User: show notification: prpject created
-
 
         deactivate OutputService
         deactivate ProjectService

@@ -14,6 +14,7 @@
         participant SubprojectController
         participant SubprojectService
         participant OutputService
+        participant EventGateway
         end
 
         participant Database
@@ -40,21 +41,29 @@
 
                             SubprojectService->>OutputService: projectLog()
                             activate OutputService
-                            OutputService-->>UI: broadcast project.log
-                            UI-->>Viewer: Add log to Project Log display tab
+                            OutputService-->>EventGateway: broadcast project.log
+                            activate EventGateway
                             deactivate OutputService
+                            EventGateway-->>UI: broadcats project log
+                            UI-->>Viewer: Add log to Project Log display tab
 
                             SubprojectService->>OutputService: projectSubproject()
                             activate OutputService
-                            OutputService-->>UI: broadcast project.subproject
-                            UI-->>Viewer: add subproject row to subproject list display tab 
+                            OutputService-->>EventGateway: broadcast project.subproject
+                            activate EventGateway
                             deactivate OutputService
+                            EventGateway-->>UI: emit subproject
+                            deactivate EventGateway
+                            UI-->>Viewer: add subproject row to subproject list display tab 
 
                             SubprojectService->>OutputService: subprojectSidebar()
                             activate OutputService
-                            OutputService-->>UI: broadcast subproject.sidebar
-                            UI-->>Viewer: add subproject to sidebar item
+                            OutputService-->>EventGateway: broadcast subproject.sidebar
+                            activate EventGateway
                             deactivate OutputService
+                            EventGateway-->>UI: emit subproject
+                            deactivate EventGateway
+                            UI-->>Viewer: add subproject to sidebar item
 
                             SubprojectService-->>SubprojectController: subproject data
                             SubprojectController-->>UI: response created
