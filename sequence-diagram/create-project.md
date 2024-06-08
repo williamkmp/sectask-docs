@@ -36,7 +36,7 @@
         UI-->>User: Add Project to Sidebar display
         UI-->>Member: Add Project to Sidebar display
         ProjectService-->>ProjectController: saved project
-        ProjectController-->>UI: SUCCESS
+        ProjectController-->>UI: response created
         UI-->User: closes project modal
         UI-->>User: show notification: prpject created
 
