@@ -47,13 +47,13 @@
                             SubprojectService->>OutputService: projectSubproject()
                             activate OutputService
                             OutputService-->>UI: broadcast project.subproject
-                            UI-->Viewer: add subproject row to subproject list display tab 
+                            UI-->>Viewer: add subproject row to subproject list display tab 
                             deactivate OutputService
 
                             SubprojectService->>OutputService: subprojectSidebar()
                             activate OutputService
                             OutputService-->>UI: broadcast subproject.sidebar
-                            UI-->Viewer: add subproject to sidebar item
+                            UI-->>Viewer: add subproject to sidebar item
                             deactivate OutputService
 
                             SubprojectService-->>SubprojectController: subproject data
