@@ -1,5 +1,8 @@
 # Diagram checklist
 
+- [x] Entity Relationship Diagram
+- [ ] Class Diagram
+
 for **users**:
 
 | Use Case               | Activity Diagram | Sequence Diagram |
