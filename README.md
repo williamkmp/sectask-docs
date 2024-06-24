@@ -41,10 +41,10 @@ for **Technical Writer** :
 
 | Use Case                 | Activity Diagram | Sequence Diagram |
 | ------------------------ | :--------------: | :--------------: |
-| Upload Project Report    |                  |                  |
-| Upload Subproject Report |                  |                  |
-| Delete Project Report    |                  |                  |
-| Delete Subproject Report |                  |                  |
+| Upload Project Report    |                  |       Done       |
+| Upload Subproject Report |                  |       Done       |
+| Delete Project Report    |                  |       Done       |
+| Delete Subproject Report |                  |       Done       |
 
 for **Developer** :
 
