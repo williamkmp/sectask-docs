@@ -27,8 +27,8 @@ for **Project Manager** :
 
 | Use Case                 | Activity Diagram | Sequence Diagram |
 | ------------------------ | :--------------: | :--------------: |
-| Create Subproject        |                  |       DONE       |
-| Delete Subproject        |                  |                  |
+| Create Subproject        |                  |       Done       |
+| Delete Subproject        |                  |       Done       |
 | Add Member               |                  |                  |
 | Delete Member            |                  |                  |
 | Update Subproject        |                  |                  |
