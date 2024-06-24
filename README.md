@@ -20,7 +20,7 @@ for **viewer**:
 
 | Use Case          | Activity Diagram | Sequence Diagram |
 | ----------------- | :--------------: | :--------------: |
-| Create Chat       |                  |                  |
+| Create Chat       |                  |       Done       |
 | Create Discussion |                  |       Done       |
 
 for **Project Manager** :
