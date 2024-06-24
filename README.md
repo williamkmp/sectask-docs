@@ -21,7 +21,7 @@ for **viewer**:
 | Use Case          | Activity Diagram | Sequence Diagram |
 | ----------------- | :--------------: | :--------------: |
 | Create Chat       |                  |                  |
-| Create Discussion |                  |                  |
+| Create Discussion |                  |       Done       |
 
 for **Project Manager** :
 
