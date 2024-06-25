@@ -50,10 +50,10 @@ for **Developer** :
 
 | Use Case                     | Activity Diagram | Sequence Diagram |
 | ---------------------------- | :--------------: | :--------------: |
-| Upload Project Attachment    |                  |                  |
-| Upload Subproject Attachment |                  |                  |
-| Delete Project Attachment    |                  |                  |
-| Delete Subproject Attachment |                  |                  |
+| Upload Project Attachment    |                  |       Done       |
+| Upload Subproject Attachment |                  |       Done       |
+| Delete Project Attachment    |                  |       Done       |
+| Delete Subproject Attachment |                  |       Done       |
 
 for **Consultant** :
 
