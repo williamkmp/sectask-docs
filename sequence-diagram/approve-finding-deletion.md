@@ -1,4 +1,4 @@
-# Sequence Diagram: Create Finding
+# Sequence Diagram: Approve Finding Deletion
 
 ```mermaid
 
