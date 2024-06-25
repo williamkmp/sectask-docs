@@ -29,7 +29,7 @@ for **Project Manager** :
 | ------------------------ | :--------------: | :--------------: |
 | Create Subproject        |                  |       Done       |
 | Delete Subproject        |                  |       Done       |
-| Add Member               |                  |                  |
+| Add Member               |                  |       Done       |
 | Delete Member            |                  |                  |
 | Update Subproject        |                  |                  |
 | Update Project           |                  |                  |
