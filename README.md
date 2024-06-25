@@ -32,7 +32,7 @@ for **Project Manager** :
 | Add Member               |                  |       Done       |
 | Delete Member            |                  |       Done       |
 | Update Subproject        |                  |       Done       |
-| Update Project           |                  |                  |
+| Update Project           |                  |       Done       |
 | Change Member Role       |                  |                  |
 | Approve Finding Deletion |                  |                  |
 | Reject Finding Deletion  |                  |                  |
