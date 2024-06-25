@@ -31,7 +31,7 @@ for **Project Manager** :
 | Delete Subproject        |                  |       Done       |
 | Add Member               |                  |       Done       |
 | Delete Member            |                  |       Done       |
-| Update Subproject        |                  |                  |
+| Update Subproject        |                  |       Done       |
 | Update Project           |                  |                  |
 | Change Member Role       |                  |                  |
 | Approve Finding Deletion |                  |                  |
