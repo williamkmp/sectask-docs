@@ -30,7 +30,7 @@ for **Project Manager** :
 | Create Subproject        |                  |       Done       |
 | Delete Subproject        |                  |       Done       |
 | Add Member               |                  |       Done       |
-| Delete Member            |                  |                  |
+| Delete Member            |                  |       Done       |
 | Update Subproject        |                  |                  |
 | Update Project           |                  |                  |
 | Change Member Role       |                  |                  |
