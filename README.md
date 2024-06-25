@@ -34,7 +34,7 @@ for **Project Manager** :
 | Update Subproject        |                  |       Done       |
 | Update Project           |                  |       Done       |
 | Change Member Role       |                  |       Done       |
-| Approve Finding Deletion |                  |                  |
+| Approve Finding Deletion |                  |       Done       |
 | Reject Finding Deletion  |                  |                  |
 
 for **Technical Writer** :
