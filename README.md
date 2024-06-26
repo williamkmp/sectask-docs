@@ -60,7 +60,7 @@ for **Consultant** :
 | Use Case                 | Activity Diagram | Sequence Diagram |
 | ------------------------ | :--------------: | :--------------: |
 | Add Finding              |                  |       Done       |
-| Request Finding Deletion |                  |                  |
+| Request Finding Deletion |                  |       Done       |
 | Restore Fiding Document  |                  |                  |
 | Save Document            |                  |                  |
 | Save Document            |                  |                  |
