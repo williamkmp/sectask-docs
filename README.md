@@ -64,5 +64,5 @@ for **Consultant** :
 | Restore Fiding Document  |                  |                  |
 | Save Document            |                  |                  |
 | Edit Finding Detail      |                  |                  |
-| Add Retest Result        |                  |                  |
+| Add Retest Result        |                  |       Done       |
 | Edit Documnet            |                  |       Done       |
