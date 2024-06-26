@@ -63,7 +63,6 @@ for **Consultant** :
 | Request Finding Deletion |                  |       Done       |
 | Restore Fiding Document  |                  |                  |
 | Save Document            |                  |                  |
-| Save Document            |                  |                  |
 | Edit Finding Detail      |                  |                  |
 | Add Retest Result        |                  |                  |
-| Edit Documnet            |                  |                  |
+| Edit Documnet            |                  |       Done       |
