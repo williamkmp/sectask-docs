@@ -35,7 +35,7 @@ for **Project Manager** :
 | Update Project           |                  |       Done       |
 | Change Member Role       |                  |       Done       |
 | Approve Finding Deletion |                  |       Done       |
-| Reject Finding Deletion  |                  |                  |
+| Reject Finding Deletion  |                  |     PENDING      |
 
 for **Technical Writer** :
 
