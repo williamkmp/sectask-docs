@@ -15,7 +15,8 @@
         participant Database
         end
 
-        Consultant->>Server: edit document
+        Consultant->>UI: edit document
+        UI->>Server: EMIT update data
         activate Server
         activate Database
         Server->>Database: update document binary

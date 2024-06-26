@@ -22,7 +22,7 @@
         Consultant->>UI: edit finidng document content
         Consultant->>UI: clicks save version button
         activate UI
-        UI->>FindingController: POST /finding/versions/:findingId
+        UI->>FindingController: POST /finding/versions/:findingId?type=:documentPart
         activate FindingController
         FindingController->>FindingService: saveFindingVersion()
         activate FindingService
