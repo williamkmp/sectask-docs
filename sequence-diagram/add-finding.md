@@ -46,7 +46,7 @@
                 UI-->>Consultant: display finding created notification
                 UI-->>Consultant: close finding modal 
                 
-                FindingService->>OutputService: subprojectLog()
+                FindingService-)OutputService: subprojectLog()
                 activate OutputService
                 OutputService->>EventGateway: broadcast subproject.log
                 activate EventGateway
@@ -55,7 +55,7 @@
                 deactivate EventGateway 
                 UI-->Viewer: add subproject log to log tab display
 
-                FindingService->>OutputService: findingSidebar()
+                FindingService-)OutputService: findingSidebar()
                 activate OutputService
                 OutputService->>EventGateway: broadcast finding.sidebar
                 activate EventGateway
@@ -64,7 +64,7 @@
                 deactivate EventGateway 
                 UI-->Viewer: add finding display to subprojects sidebar
 
-                FindingService->>OutputService: subprojectFinding()
+                FindingService-)OutputService: subprojectFinding()
                 activate OutputService
                 OutputService->>EventGateway: broadcast subproject.finding
                 activate EventGateway

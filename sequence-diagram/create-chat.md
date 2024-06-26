@@ -30,7 +30,7 @@
         Database-->>FindingService: saved comment
         
 
-        FindingService->>OutputService: sendChat()
+        FindingService-)OutputService: sendChat()
         activate OutputService
         OutputService->>EventGateway: emit new comment
         activate EventGateway 

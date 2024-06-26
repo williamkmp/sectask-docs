@@ -33,7 +33,7 @@
         Database-->>FindingService: created log 
         deactivate Database
         
-        FindingService->>OutputService: subprojectLog()
+        FindingService-)OutputService: subprojectLog()
         activate OutputService
         OutputService->>EventGateway: emit subproject log
         activate EventGateway 
@@ -42,7 +42,7 @@
         deactivate EventGateway
         UI-->>Viewer: add to subrpoject log tab
 
-        FindingService->>OutputService: roomChat()
+        FindingService-)OutputService: roomChat()
         activate OutputService
         OutputService->>EventGateway: emit new discussion
         activate EventGateway 

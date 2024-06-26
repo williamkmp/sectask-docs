@@ -32,7 +32,7 @@
         ProjectService->>Database: save craeted project log
         Database-->>ProjectService: created project data
         deactivate Database
-        ProjectService->>OutputService: projectSidebar() 
+        ProjectService-)OutputService: projectSidebar() 
         activate OutputService
         OutputService-->>EventGateway: broadcast project.log
         activate EventGateway

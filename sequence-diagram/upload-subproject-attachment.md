@@ -42,7 +42,7 @@
         Database-->>SubprojectService: subproject log
         deactivate Database
         
-        SubprojectService->>OutputService: projectLog()
+        SubprojectService-)OutputService: projectLog()
         activate OutputService
         OutputService->>EventGateway: emit subproject log 
         activate EventGateway
@@ -51,7 +51,7 @@
         deactivate EventGateway
         UI-->>Viewer: add subproject log
 
-        SubprojectService->>OutputService: projectFile()
+        SubprojectService-)OutputService: projectFile()
         activate OutputService
         OutputService->>EventGateway: emit subproject attachment 
         activate EventGateway

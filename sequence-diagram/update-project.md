@@ -35,7 +35,7 @@
         Database-->>ProjectService: project log
         deactivate Database
 
-        ProjectService->>OutputService: projectLog()
+        ProjectService-)OutputService: projectLog()
         activate OutputService
         OutputService->>EventGateway: emit project log 
         activate EventGateway
@@ -44,7 +44,7 @@
         deactivate EventGateway
         UI-->>Viewer: add project updated log
 
-        ProjectService->>OutputService: projectSidebar()
+        ProjectService-)OutputService: projectSidebar()
         activate OutputService
         OutputService->>EventGateway: emit project sidebar 
         activate EventGateway
@@ -53,7 +53,7 @@
         deactivate EventGateway
         UI-->>Viewer: update project entry in user sidebar menu
 
-        ProjectService->>OutputService: projectHeader()
+        ProjectService-)OutputService: projectHeader()
         activate OutputService
         OutputService->>EventGateway: emit project header 
         activate EventGateway

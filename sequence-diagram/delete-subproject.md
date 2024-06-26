@@ -32,7 +32,7 @@
         SubprojectService->>Database: projectLog.create()
         deactivate Database
 
-        SubprojectService->>OutputService: subprojectSidebar()
+        SubprojectService-)OutputService: subprojectSidebar()
         activate OutputService
         OutputService->>EventGateway: emit subproject sidebar event
         activate EventGateway
@@ -41,7 +41,7 @@
         deactivate EventGateway
         UI-->>Viewer: remove subproject sidebar item from sidebar menu list
 
-        SubprojectService->>OutputService: projectSubproject()
+        SubprojectService-)OutputService: projectSubproject()
         activate OutputService
         OutputService->>EventGateway: emit project subproject event
         activate EventGateway
@@ -50,7 +50,7 @@
         deactivate EventGateway
         UI-->>Viewer: remove subproject row from project's subproject list
 
-        SubprojectService->>OutputService: subprojectDeleted()
+        SubprojectService-)OutputService: subprojectDeleted()
         activate OutputService
         OutputService->>EventGateway: emit subproject deleted event
         activate EventGateway

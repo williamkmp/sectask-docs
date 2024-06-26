@@ -42,7 +42,7 @@
         Database-->>ProjectService: project log
         deactivate Database
         
-        ProjectService->>OutputService: projectLog()
+        ProjectService-)OutputService: projectLog()
         activate OutputService
         OutputService->>EventGateway: emit project log 
         activate EventGateway
@@ -51,7 +51,7 @@
         deactivate EventGateway
         UI-->>Viewer: add project log
 
-        ProjectService->>OutputService: projectFile()
+        ProjectService-)OutputService: projectFile()
         activate OutputService
         OutputService->>EventGateway: emit project report 
         activate EventGateway

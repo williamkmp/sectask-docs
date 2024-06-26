@@ -35,7 +35,7 @@
         Database-->>SubrojectService: subroject log
         deactivate Database
 
-        SubrojectService->>OutputService: subrojectLog()
+        SubrojectService-)OutputService: subrojectLog()
         activate OutputService
         OutputService->>EventGateway: emit subroject log 
         activate EventGateway
@@ -44,7 +44,7 @@
         deactivate EventGateway
         UI-->>Viewer: add subroject updated log
 
-        SubrojectService->>OutputService: subrojectSidebar()
+        SubrojectService-)OutputService: subrojectSidebar()
         activate OutputService
         OutputService->>EventGateway: emit subroject sidebar 
         activate EventGateway
@@ -53,7 +53,7 @@
         deactivate EventGateway
         UI-->>Viewer: update subroject entry in user sidebar menu
 
-        SubrojectService->>OutputService: subrojectHeader()
+        SubrojectService-)OutputService: subrojectHeader()
         activate OutputService
         OutputService->>EventGateway: emit subroject header 
         activate EventGateway

@@ -39,7 +39,7 @@
 
                             deactivate Database
 
-                            SubprojectService->>OutputService: projectLog()
+                            SubprojectService-)OutputService: projectLog()
                             activate OutputService
                             OutputService-->>EventGateway: broadcast project.log
                             activate EventGateway
@@ -47,7 +47,7 @@
                             EventGateway-->>UI: broadcats project log
                             UI-->>Viewer: Add log to Project Log display tab
 
-                            SubprojectService->>OutputService: projectSubproject()
+                            SubprojectService-)OutputService: projectSubproject()
                             activate OutputService
                             OutputService-->>EventGateway: broadcast project.subproject
                             activate EventGateway
@@ -56,7 +56,7 @@
                             deactivate EventGateway
                             UI-->>Viewer: add subproject row to subproject list display tab 
 
-                            SubprojectService->>OutputService: subprojectSidebar()
+                            SubprojectService-)OutputService: subprojectSidebar()
                             activate OutputService
                             OutputService-->>EventGateway: broadcast subproject.sidebar
                             activate EventGateway
