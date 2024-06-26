@@ -61,7 +61,7 @@ for **Consultant** :
 | ------------------------ | :--------------: | :--------------: |
 | Add Finding              |                  |       Done       |
 | Request Finding Deletion |                  |       Done       |
-| Restore Fiding Document  |                  |                  |
+| Restore Fiding Document  |                  |       Done       |
 | Save Document            |                  |       Done       |
 | Edit Finding Detail      |                  |       Done       |
 | Add Retest Result        |                  |       Done       |
