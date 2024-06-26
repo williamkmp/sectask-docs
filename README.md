@@ -62,7 +62,7 @@ for **Consultant** :
 | Add Finding              |                  |       Done       |
 | Request Finding Deletion |                  |       Done       |
 | Restore Fiding Document  |                  |                  |
-| Save Document            |                  |                  |
+| Save Document            |                  |       Done       |
 | Edit Finding Detail      |                  |       Done       |
 | Add Retest Result        |                  |       Done       |
 | Edit Documnet            |                  |       Done       |
